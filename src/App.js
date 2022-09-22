@@ -5,14 +5,18 @@ import Contact from './components/Contact';
 import Resume from './components/Resume';
 import Portfolio from './components/Portfolio';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import React, { useState } from "react";
 
 function App() {
+
+  //const [navState, setNavState] = useState;
+
   return (
     <Router>
       <div>
-        <header>
+        <header className='flex flex-no-wrap space-between'>
           <h1>Hogan's React Portfolio</h1>
-          <nav>
+          <nav className='flex flex-no-wrap space-around'>
             <div><a href="/about">About</a></div>
             <div><a href="/contact">Contact</a></div>
             <div><a href="/portfolio">Portfiolio</a></div>
