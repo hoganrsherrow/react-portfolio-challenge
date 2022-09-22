@@ -37,8 +37,43 @@
   }
 }
 
+/* button {
+  width: 20px;
+  height: 30px;
+  background-color: aliceblue;
+} */
+
+header {
+  background-color: black;
+  color: white;
+}
+
+nav div {
+  margin-left: 30px;
+}
+
+nav div a {
+  text-decoration: none;
+  font-size: 32px;
+  color: white;
+}
+
+footer {
+  text-align: center;
+  margin-top: 50px;
+}
+
 .flex {
   display: flex;
+  
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-no-wrap {
+  flex-wrap: nowrap;
 }
 
 .space-between {
